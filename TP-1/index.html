@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <h1>Carousel simple: Artur Poetsch</h1>
+    <script src="main.js" defer></script>
+        <div class="carousel">
+            <img class="carousel__photo initial" src="img/nature_1.jpg">
+            <img class="carousel__photo" src="img/nature_2.jpg">
+            <img class="carousel__photo" src="img/nature_3.jpg">
+            <div class="carousel__button--next"></div>
+            <div class="carousel__button--prev"></div>
+        </div>
+        <!-- point de navigation -->
+        <div style="text-align:center">
+            <span class="point active" onclick = currentSlide(0) ></span>
+            <span class="point" onclick = currentSlide(1)></span>
+            <span class="point" onclick = currentSlide(2)></span>
+        </div>
+</body>
+
+</html>
